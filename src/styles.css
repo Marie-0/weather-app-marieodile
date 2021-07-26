@@ -1,0 +1,177 @@
+body {
+  background-image: url(img/frame-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7%;
+}
+h1 {
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 10%;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+button,
+.btn-sm,
+.currentCityButton {
+  font-size: 0.3em;
+  color: #eeeeee;
+  background-color: #ff8200;
+  border: solid 1px #ff8200;
+  border-radius: 6%;
+  box-shadow: 5px 5px 4px #eeeeee;
+  transition: all 200ms ease-in-out;
+  margin-bottom: 0;
+}
+button:hover,
+.btn-sm:hover,
+.currentCityButton:hover {
+  color: #ff8200;
+  border: solid 1px #ff8200;
+  box-shadow: 5px 5px 4px #eeeeee;
+  background-color: #ffff;
+}
+
+img {
+  border: solid 3px #ff8200;
+  border-radius: 4px;
+}
+hr {
+  color: #ff8200;
+  opacity: 100%;
+  border: solid 2px #ff8200;
+}
+
+.container {
+  border: none;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 3.8%;
+  padding-right: 3.8%;
+  max-width: 658px;
+  max-height: 384px;
+  size: 558px 284px;
+}
+.container-1 {
+  display: block;
+}
+.align-items-start {
+  margin: 0;
+}
+
+.top-1,
+.top-2 {
+  position: relative;
+  display: block;
+  margin-top: 0;
+  text-align: center;
+}
+.container-2 {
+  margin: 0;
+  width: 100%;
+}
+.loupe,
+.form-floating,
+.mb-3 {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: right;
+}
+.loupe {
+  font-size: 1.5em;
+}
+.form-floating {
+  margin-top: 5%;
+}
+
+.search {
+  font-size: 2em;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+}
+.card-artwork {
+  border: none;
+  position: relative;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.card-body {
+  margin: none;
+  padding: none;
+}
+.card-text {
+  border: solid 1px #ff8200;
+  border-radius: 4px;
+  background-color: #ffff;
+  font-size: 50%;
+  margin: 0;
+  padding: 0;
+}
+#city {
+  font-weight: bold;
+  font-family: "Oleo Script Swash Caps";
+  font-size: 2em;
+}
+.current-temperature,
+.current-city,
+.celsius,
+.farenheit {
+  font-weight: lighter;
+  font-family: "Spartan";
+  font-size: 1em;
+}
+.current-date {
+  color: #ff8200;
+  font-family: "Spartan";
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+}
+.celsius,
+.farenheit {
+  text-decoration: none;
+  color: black;
+}
+.middle-1 {
+  font-size: 4em;
+  text-align: center;
+}
+.middle-2 {
+  text-align: left;
+}
+.row-main-4 {
+  margin: 0;
+  padding: 0;
+  font-size: 0.6em;
+}
+.days,
+.following-weather {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Spartan";
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-top: 0;
+}
+.day-one,
+.day-two,
+.day-three,
+.day-four,
+.day-five {
+  font-family: arial;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+.day-1-emoji,
+.day-2-emoji,
+.day-3-emoji,
+.day-4-emoji,
+.day-5-emoji {
+  font-size: 5em;
+}
