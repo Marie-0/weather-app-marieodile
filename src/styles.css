@@ -43,9 +43,11 @@ hr {
 }
 footer{
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: 10px;
   text-align: center;
   color: #000;
+  margin: auto;
+  padding: 20px 0;
 }
 
 .container {
