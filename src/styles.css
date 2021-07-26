@@ -41,6 +41,12 @@ hr {
   opacity: 100%;
   border: solid 2px #ff8200;
 }
+footer{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+}
 
 .container {
   border: none;
@@ -171,4 +177,7 @@ hr {
 .day-4-emoji,
 .day-5-emoji {
   font-size: 5em;
+}
+.githublink{
+color: #ff8200;
 }
